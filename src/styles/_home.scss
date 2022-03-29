@@ -12,4 +12,16 @@
     height: 80%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap:25%;
+}
+
+.buttonToShop{
+    background-color: rgb(150,150,150);
+    font-size: 2rem;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
 }
