@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.1691d622.css",
+    "main.js": "/shopping-cart/static/js/main.8bb7b286.js",
+    "static/media/gpu-background.jpg": "/shopping-cart/static/media/gpu-background.fdf7a0ec60770d2c26af.jpg",
+    "static/media/asusprime.jpg": "/shopping-cart/static/media/asusprime.c23204d2829d56aed011.jpg",
+    "static/media/asusrog.jpg": "/shopping-cart/static/media/asusrog.62bc2a5d1a3f678e553b.jpg",
+    "static/media/antecdark.jpg": "/shopping-cart/static/media/antecdark.11d5239744d8d5f206ee.jpg",
+    "static/media/corsair16gb.jpg": "/shopping-cart/static/media/corsair16gb.9fbc4be81b7cb655e37f.jpg",
+    "static/media/evgax570.jpg": "/shopping-cart/static/media/evgax570.3071f1c703af48e520df.jpg",
+    "static/media/geforce3050.jpg": "/shopping-cart/static/media/geforce3050.5640120b3aa806afc3c6.jpg",
+    "static/media/geforce3080.jpg": "/shopping-cart/static/media/geforce3080.8239f3d49b7c31fc5ac1.jpg",
+    "static/media/i9-12900.jpg": "/shopping-cart/static/media/i9-12900.6fb16dff43ecf532bb01.jpg",
+    "static/media/radeon6600.jpg": "/shopping-cart/static/media/radeon6600.f58a677189416ddbf7a0.jpg",
+    "static/media/rosewill.jpg": "/shopping-cart/static/media/rosewill.21b117e05cbfb302eefe.jpg",
+    "static/media/geforce1650.jpg": "/shopping-cart/static/media/geforce1650.fa8926b01fc501f3314b.jpg",
+    "static/media/team16gb.jpg": "/shopping-cart/static/media/team16gb.4db3d205f201c3b6048d.jpg",
+    "static/media/ryzen5600g.jpg": "/shopping-cart/static/media/ryzen5600g.9734eb3ccffd4ef93dca.jpg",
+    "static/media/ryzen5900.jpg": "/shopping-cart/static/media/ryzen5900.90ca2c58ae62d8e35d5b.jpg",
+    "static/media/geforce710.jpg": "/shopping-cart/static/media/geforce710.ba1f108ffb36a8f15d31.jpg",
+    "static/media/gskill32gb.jpg": "/shopping-cart/static/media/gskill32gb.9d079295fdbfcee97af4.jpg",
+    "static/media/diypc.jpg": "/shopping-cart/static/media/diypc.d66a34267e41c94733ab.jpg",
+    "static/media/i7-12700k.jpg": "/shopping-cart/static/media/i7-12700k.68b864eb1c8e38c84eb1.jpg",
+    "static/media/i512600.jpg": "/shopping-cart/static/media/i512600.fafd5986a5c9bc17fb1a.jpg",
+    "static/media/shopping-cart.svg": "/shopping-cart/static/media/shopping-cart.5101eb692553cc8b4bbda1abf234128b.svg",
+    "index.html": "/shopping-cart/index.html",
+    "main.1691d622.css.map": "/shopping-cart/static/css/main.1691d622.css.map",
+    "main.8bb7b286.js.map": "/shopping-cart/static/js/main.8bb7b286.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1691d622.css",
+    "static/js/main.8bb7b286.js"
+  ]
+}
