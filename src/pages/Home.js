@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import homeImg from '../assets/homeImg.png';
 
 function Home() {
   const navigate = useNavigate();
@@ -13,7 +12,6 @@ function Home() {
     <main className="home">
       <div className="container">
         <button type="button" onClick={handleClick} className="buttonToShop">Shop now</button>
-        <img src={homeImg} alt="pc" />
       </div>
     </main>
   );

@@ -2,6 +2,11 @@
 @import './navbar';
 @import './home';
 @import './shop';
+@import './cart';
+@import './itemPage';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300&display=swap');
+
 .App{
     width: 100vw;
+    font-family: 'Roboto', sans-serif; ;
 }

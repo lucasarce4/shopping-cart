@@ -1,12 +1,17 @@
 .navbar{
     width: 100%;
-    background-color: #000000;
+    background-color:rgba($color: #000000, $alpha: 0.8);
     display: flex;
     justify-content: space-between;
     padding: 10px;
     align-items: center;
     color:white;
     position: fixed;
+    z-index: 1;
+
+    h1{
+        font-size: 2rem;
+    }
 
 
     ul{
@@ -14,6 +19,8 @@
         margin-right: 20%;
         gap:5vw;
         padding: 10px;
+        align-items: center;
+        font-size: 1.3rem;
 
         li{
             text-decoration: none;
@@ -25,9 +32,39 @@
             transform: scale(1.2);
             -webkit-transform: scale(1.2) ;
         }
+
+        button{
+            height: fit-content;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        svg{
+            width: 2rem;
+            height: 2rem;
+            fill: white;
+        }
+
+        
     }
 }
 
+.cartIconContainer{
+    position: relative;
+    .cartCounter{
+        color:white;
+        background-color: red;
+        height: fit-content;
+        min-width: 21px;
+        text-align: center;
+        border-radius: 50%;
+        padding: 2px;
+        position: absolute;
+        left: -10%;
+        top:60%;
+        font-size: 1.1rem;
+    }
+}
 .navlink{
     text-decoration: none;
     color: white;
@@ -38,9 +75,11 @@
     .navbar{
         flex-direction: column;
         align-items: center;
+
         ul{
-            margin-right:0 ;
+            width: 100%;
             justify-content: space-between;
+            margin:0 5%;
         }
     }
 }
