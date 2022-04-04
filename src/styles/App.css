@@ -287,6 +287,9 @@ input {
   display: flex;
   overflow-x: hidden;
   background-color: #eeead9;
+  z-index: -10;
+  background: rgb(233, 229, 229);
+  background: radial-gradient(circle, rgb(231, 231, 231) 0%, rgb(173, 176, 180) 100%);
 }
 
 .categoryList {
@@ -303,6 +306,7 @@ input {
   position: relative;
   overflow: hidden;
   background: transparent;
+  z-index: 10;
 }
 .categoryList li::before {
   content: "";
@@ -312,7 +316,8 @@ input {
   right: 0;
   bottom: 0;
   z-index: -1;
-  background: black;
+  opacity: 0;
+  background-color: black;
   transform: translateX(-100%);
   transition: transform 0.8s ease, opacity 0.8s ease;
 }
@@ -333,8 +338,10 @@ input {
   transition: color ease-in-out 0.6s;
   width: 100%;
   text-align: left;
+  z-index: 10;
 }
 .categoryList li button:hover {
+  z-index: 10;
   color: white;
 }
 
@@ -532,7 +539,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #eeead9;
+  background: radial-gradient(circle, rgb(231, 231, 231) 0%, rgb(173, 176, 180) 100%);
 }
 .itemPageContainer img {
   width: 35%;

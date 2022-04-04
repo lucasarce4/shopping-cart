@@ -4,7 +4,9 @@
     display: flex;
     overflow-x: hidden;
     background-color: #eeead9;
-}
+    z-index: -10;
+    background: rgb(233,229,229);
+    background: radial-gradient(circle, rgba(231,231,231,1) 0%, rgba(173,176,180,1) 100%);}
 
 .categoryList{
     display: flex;
@@ -19,6 +21,7 @@
         position: relative;
         overflow: hidden;
         background: transparent;
+        z-index: 10;
 
         &::before {
             content: '';
@@ -28,7 +31,8 @@
             right: 0;
             bottom: 0;
             z-index: -1;
-            background: black;
+            opacity: 0;
+            background-color: black;
             transform: translateX(-100%);
             transition: transform 0.8s ease, opacity 0.8s ease;
         }
@@ -51,8 +55,9 @@
             transition: color ease-in-out 0.6s;
             width: 100%;
             text-align: left;
-
+            z-index: 10;
             &:hover{
+                z-index: 10;
                 color: white;
             }
         }
