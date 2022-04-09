@@ -17,8 +17,8 @@ function Navbar({ showCart, cartItems }) {
     <nav className="navbar">
       <h1>Computer Cloud</h1>
       <ul>
-        <li><NavLink to="/" className="navlink">Home</NavLink></li>
-        <li><NavLink to="/shop" className="navlink">Shop</NavLink></li>
+        <li><NavLink to="/shopping-cart" className="navlink">Home</NavLink></li>
+        <li><NavLink to="/shopping-cart/shop" className="navlink">Shop</NavLink></li>
         <li>
           <div className="cartIconContainer">
             <button type="button" onClick={showCart}>

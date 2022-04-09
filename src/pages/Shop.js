@@ -49,7 +49,7 @@ function Shop() {
         )}
       <div className="productContainer">
         {productDisplay.map((product) => (
-          <Link to={`/shop/${product.shortName}`} key={product.shortName} className="productCard">
+          <Link to={`/shopping-cart/shop/${product.shortName}`} key={product.shortName} className="productCard">
             <div>
               <img
                 onLoad={load}

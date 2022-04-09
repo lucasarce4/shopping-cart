@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { motion } from 'framer-motion';
 
 function Cart({ cartItems, changeItemCount, showCart }) {
   const [subtotal, setSubtotal] = useState(0);
@@ -12,7 +13,19 @@ function Cart({ cartItems, changeItemCount, showCart }) {
   }, [cartItems]);
 
   return (
-    <div className="cart">
+    <motion.div
+      className="cart"
+      key="modal"
+      initial={{ opacity: 0 }}
+      animate={{
+        opacity: 1,
+        x: '0',
+      }}
+      exit={{
+        opacity: 0,
+        x: '30vw',
+      }}
+    >
       <button type="button" onClick={showCart} className="closeCart">X</button>
       <h2 className="cartTitle">Shopping Cart</h2>
       {cartItems.length === 0
@@ -41,7 +54,7 @@ function Cart({ cartItems, changeItemCount, showCart }) {
         {subtotal}
         {' '}
       </div>
-    </div>
+    </motion.div>
   );
 }
 

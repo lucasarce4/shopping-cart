@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './styles/App.css';
+import { AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Shop from './pages/Shop';
@@ -53,11 +54,13 @@ function App() {
       <BrowserRouter>
         <Navbar showCart={showCart} cartItems={cartItems} />
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/shop" element={<Shop />} />
-          <Route path="/shop/:id" element={<ItemPage updateItems={updateItems} />} />
+          <Route exact path="/shopping-cart" element={<Home />} />
+          <Route path="/shopping-cart/shop" element={<Shop />} />
+          <Route path="/shopping-cart/shop/:id" element={<ItemPage updateItems={updateItems} />} />
         </Routes>
-        {openCart ? <Cart cartItems={cartItems} showCart={showCart} changeItemCount={changeItemCount} /> : null}
+        <AnimatePresence>
+          {openCart ? <Cart cartItems={cartItems} showCart={showCart} changeItemCount={changeItemCount} /> : null}
+        </AnimatePresence>
       </BrowserRouter>
     </div>
   );
